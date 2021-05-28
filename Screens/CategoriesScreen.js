@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { CATEGORIES } from "../data/dummy-data";
 import CategoryGridTile from "../Components/CategoryGridTile";
+
 const CategoriesScreen = (props) => {
   const renderGridItem = (itemData) => {
     return (
